@@ -37,9 +37,10 @@ box-shadow:${boxShadow.inste ? `inste` : ``}
     })
     return (
         <Container >
+            <h1 className="mb-0">My name is Javohir</h1>
             <h1 className="mb-5"
                 style={{ paddingTop: '3rem', margin: 'auto 0' }}
-            >I am a<span
+            > I am a<span
                 style={{ color: 'red', fontWeight: 'bold', marginLeft: '10px' }}
             >
                     <Typewriter loop cursor cursorStyle="_" typeSpeed={70}
